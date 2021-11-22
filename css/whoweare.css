@@ -1,0 +1,90 @@
+#info {
+    background-color: black;
+    width: 100%;
+    padding: 50px 0;
+}
+#weare {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.same {
+    background-color: white;
+    width: 60%;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: flex;
+    transition: transform 0.8s;
+}
+.same:hover {
+    transform: scale(1.2);
+}
+.same:first-child {
+    margin-top: 0;
+}
+.same:last-child {
+    margin-bottom: 0;
+}
+.circular-image {
+    min-width: 200px;
+    min-height: 200px;
+}
+#asci {
+    background-image: url("../css/img/AM.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#ga {
+    background-image: url("../css/img/GA.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#jm {
+    background-image: url("../css/img/JM.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#tg {
+    background-image: url("../css/img/TG.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#mg {
+    background-image: url("../css/img/MG.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#text1 {
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 6%;
+    text-align: right;
+}
+#text1 h3 {
+    color: coral;
+}
+#text1 h4 {
+    color: #000;
+}
+#text1 p {
+    margin-top: 5px;
+    color: #000;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: coral;
+    transform: rotate(-90deg);
+}
